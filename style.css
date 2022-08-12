@@ -4,7 +4,8 @@
 }
 
 body {
-  background-color: #F2EEE8;
+  background: rgb(242,238,232);
+  background: linear-gradient(180deg, rgba(242,238,232,1) 11%, rgba(219,209,195,1) 48%, rgba(241,213,171,1) 100%);
   font-family: 'Roboto', sans-serif;
 }
 
