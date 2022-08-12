@@ -17,6 +17,8 @@ body {
 @media (min-width: 1024px) {
   .menu__options {
     flex-direction: row;
+    max-width: 1024px;
+    margin: 0 auto;
   }
 }
 
