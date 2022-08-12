@@ -4,8 +4,20 @@
 }
 
 body {
-  background-color: #ffedd5;
+  background-color: #F2EEE8;
   font-family: 'Roboto', sans-serif;
+}
+
+.menu__options {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 1024px) {
+  .menu__options {
+    flex-direction: row;
+  }
 }
 
 ul {
@@ -24,7 +36,8 @@ header {
 }
 
 header h1 span {
-  color: #995000;
+  color: #467278;
+  ;
 }
 
 header h1 {
@@ -45,11 +58,12 @@ section {
 }
 
 section h2 {
-  background-color: #fed7aa;
+  background-color: #7FB4BE;
   padding: 8px 16px;
   text-align: center;
   margin-bottom: 24px;
   font-size: 18px;
+  color: #fff;
 }
 
 ul li {
